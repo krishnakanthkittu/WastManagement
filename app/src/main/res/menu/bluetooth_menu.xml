@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cal_on.wastmanagement.MainActivity">
+    <item
+    android:id="@+id/setting"
+    android:orderInCategory="10"
+    android:title="Settings"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/report"
+        android:orderInCategory="10"
+        android:title="Bill No Report"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dayreport"
+        android:orderInCategory="10"
+        android:title="Day Report"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/CustomerReport"
+        android:orderInCategory="10"
+        android:title="Customer Report"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/fetch"
+        android:orderInCategory="10"
+        android:title="FetchXsl Data"
+        app:showAsAction="never" />
+
+</menu>
